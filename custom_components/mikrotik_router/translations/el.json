@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Ανίχνευση των συσκευών δικτύου",
                     "sensor_port_tracker": "Αισθητήρες παρακολούθησης θυρών",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Αισθητήρες κίνησης θυρών",
                     "sensor_client_traffic": "Αισθητήρες κίνησης πελατών",
                     "sensor_simple_queues": "Διακόπτες απλών ουρών",

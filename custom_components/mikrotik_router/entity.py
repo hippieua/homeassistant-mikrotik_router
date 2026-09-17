@@ -24,6 +24,8 @@ from .const import (
     DEFAULT_TRACK_HOSTS,
     CONF_SENSOR_PORT_TRACKER,
     DEFAULT_SENSOR_PORT_TRACKER,
+    CONF_SENSOR_PORT_SWITCH,
+    DEFAULT_SENSOR_PORT_SWITCH,
     CONF_SENSOR_NETWATCH_TRACKER,
     DEFAULT_SENSOR_NETWATCH_TRACKER,
 )
@@ -57,6 +59,15 @@ def _skip_sensor(config_entry, entity_description, data, uid) -> bool:
     if (
         entity_description.data_path == "client_traffic"
         and entity_description.data_attribute not in data[uid].keys()
+    ):
+        return True
+
+    # Switches
+    if (
+        entity_description.func == "MikrotikPortSwitch"
+        and not config_entry.options.get(
+            CONF_SENSOR_PORT_SWITCH, DEFAULT_SENSOR_PORT_SWITCH
+        )
     ):
         return True
 

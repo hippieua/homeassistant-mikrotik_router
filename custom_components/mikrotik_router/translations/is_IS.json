@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Rekja netbúnað",
                     "sensor_port_tracker": "Port rakningarskynjarar",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Port umferðarskynjarar",
                     "sensor_client_traffic": "Biðlaraumferð skynjarar",
                     "sensor_simple_queues": "Einfaldir biðraðir rofar",

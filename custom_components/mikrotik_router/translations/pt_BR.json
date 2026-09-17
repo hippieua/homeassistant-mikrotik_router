@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Rastrear dispositivos de rede",
                     "sensor_port_tracker": "Sensores do rastreador de porta",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Sensores de tráfego de porta",
                     "sensor_client_traffic": "Sensores de tráfego do cliente",
                     "sensor_simple_queues": "Interruptores de filas simples",

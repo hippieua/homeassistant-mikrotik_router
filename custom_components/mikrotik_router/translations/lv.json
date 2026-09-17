@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Tīkla ierīču izsekošana",
                     "sensor_port_tracker": "Porta izsekošanas sensori",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Porta datu plūsmas sensori",
                     "sensor_client_traffic": "Klientu datu plūsmas sensori",
                     "sensor_simple_queues": "Vienkāršo rindu slēdži",

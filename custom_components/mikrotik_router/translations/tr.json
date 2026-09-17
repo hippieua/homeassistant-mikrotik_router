@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Ağ cihazlarını izle",
                     "sensor_port_tracker": "Port izleme sensörleri",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Port trafiği sensörleri",
                     "sensor_client_traffic": "İstemci trafik sensörleri",
                     "sensor_simple_queues": "Basit kuyruk switchleri",

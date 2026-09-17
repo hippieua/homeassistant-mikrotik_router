@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "नेटवर्क डिवाइस को ट्रैक करें",
                     "sensor_port_tracker": "पोर्ट ट्रैकर सेंसर",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "पोर्ट ट्रैफ़िक सेंसर",
                     "sensor_client_traffic": "क्लाइंट ट्रैफ़िक सेंसर",
                     "sensor_simple_queues": "सामान्य कतार स्विच",

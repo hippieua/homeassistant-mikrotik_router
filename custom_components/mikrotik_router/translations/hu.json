@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Hálózati eszközök követése",
                     "sensor_port_tracker": "Portfigyelő érzékelők",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Portforgalom érzékelők",
                     "sensor_client_traffic": "Kliensforgalom érzékelők",
                     "sensor_simple_queues": "Simple queue kapcsolók",

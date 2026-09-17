@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Відстежувати мережеві пристрої",
                     "sensor_port_tracker": "Сенсори трекерів портів",
+                    "sensor_port_switch": "Перемикачі портів (порти як пристрої)",
                     "sensor_port_traffic": "Сенсори трафіку портів",
                     "sensor_client_traffic": "Сенсори трафіку клієнтів",
                     "sensor_simple_queues": "Прості черги і перемикачі",

@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "Sledování síťových zařízení",
                     "sensor_port_tracker": "Senzory pro sledování portů",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "Senzory provozu portu",
                     "sensor_client_traffic": "Senzory provozu klienta",
                     "sensor_simple_queues": "Přepínače jednoduchých front",

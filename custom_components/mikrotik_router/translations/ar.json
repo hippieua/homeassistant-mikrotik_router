@@ -68,6 +68,7 @@
                 "data": {
                     "track_network_hosts": "تتبّع أجهزة الشبكة",
                     "sensor_port_tracker": "مُستشعرات تعقُب منفذ الشبكة",
+                    "sensor_port_switch": "Port switches (adds ports as devices)",
                     "sensor_port_traffic": "مُستشعرات حركة المرور عبر منفذ الشبكة",
                     "sensor_client_traffic": "مُستشعرات حركة المرور على شبكات العميل",
                     "sensor_simple_queues": "مُبدِّل الاِصْطِفاف البسيط",

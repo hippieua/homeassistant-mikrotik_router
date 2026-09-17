@@ -33,6 +33,8 @@ from .const import (
     DEFAULT_TRACK_HOSTS,
     CONF_SENSOR_PORT_TRACKER,
     DEFAULT_SENSOR_PORT_TRACKER,
+    CONF_SENSOR_PORT_SWITCH,
+    DEFAULT_SENSOR_PORT_SWITCH,
     CONF_SENSOR_PORT_TRAFFIC,
     DEFAULT_SENSOR_PORT_TRAFFIC,
     CONF_SENSOR_CLIENT_TRAFFIC,
@@ -444,6 +446,12 @@ class MikrotikControllerOptionsFlowHandler(OptionsFlow):
                         CONF_SENSOR_PORT_TRACKER,
                         default=self.config_entry.options.get(
                             CONF_SENSOR_PORT_TRACKER, DEFAULT_SENSOR_PORT_TRACKER
+                        ),
+                    ): bool,
+                    vol.Optional(
+                        CONF_SENSOR_PORT_SWITCH,
+                        default=self.config_entry.options.get(
+                            CONF_SENSOR_PORT_SWITCH, DEFAULT_SENSOR_PORT_SWITCH
                         ),
                     ): bool,
                     vol.Optional(
